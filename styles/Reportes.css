@@ -1,0 +1,53 @@
+﻿.campo {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #C7B299;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+}
+
+.boton {
+    padding: 10px 25px;
+    background: #AE0C3E;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+    .boton:hover {
+        background: #33211C;
+    }
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #FFFFFF;
+}
+
+    .tabla th {
+        background: #AE0C3E;
+        color: #FFFFFF;
+        padding: 10px;
+        border: 1px solid #C7B299;
+    }
+
+    .tabla td {
+        padding: 10px;
+        border: 1px solid #C7B299;
+    }
+
+    .tabla tr:hover {
+        background: #F5EEC3;
+    }
+
+.mensajeCorrecto {
+    color: green;
+}
+
+.mensajeError {
+    color: #AE0C3E;
+}

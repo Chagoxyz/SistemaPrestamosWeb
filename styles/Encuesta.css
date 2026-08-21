@@ -1,0 +1,32 @@
+﻿.pregunta {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #C7B299;
+}
+
+    .pregunta label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+.campo {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C7B299;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.opcion {
+    margin: 5px 0;
+}
+
+.mensajeCorrecto {
+    color: green;
+}
+
+.mensajeError {
+    color: #AE0C3E;
+}

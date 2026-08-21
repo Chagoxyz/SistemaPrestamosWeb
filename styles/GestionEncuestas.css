@@ -1,0 +1,67 @@
+﻿body {
+    font-family: Arial;
+    background-color: #f7f1c5;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #d6c09a;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .tabla th {
+        background-color: #bd0038;
+        color: white;
+        padding: 10px;
+    }
+
+    .tabla td {
+        padding: 10px;
+        border: 1px solid #d6c09a;
+    }
+
+.boton {
+    padding: 7px 12px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: #e0e0e0;
+}
+
+.eliminar {
+    background-color: #d9534f;
+    color: white;
+}
+
+.restaurar {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.mensajeCorrecto {
+    color: green;
+    margin-top: 15px;
+    display: block;
+}
+
+.mensajeError {
+    color: red;
+    margin-top: 15px;
+    display: block;
+}

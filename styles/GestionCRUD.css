@@ -1,0 +1,81 @@
+﻿body {
+    font-family: Arial;
+    background-color: #f7f1c5;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #d6c09a;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.fila {
+    margin-bottom: 15px;
+}
+
+.campo {
+    padding: 8px;
+    width: 280px;
+}
+
+.boton {
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.guardar {
+    background-color: #bd0038;
+    color: white;
+}
+
+.editar {
+    background-color: #e0e0e0;
+}
+
+.eliminar {
+    background-color: #d9534f;
+    color: white;
+}
+
+.restaurar {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .tabla th {
+        background-color: #bd0038;
+        color: white;
+        padding: 10px;
+    }
+
+    .tabla td {
+        padding: 9px;
+        border: 1px solid #ddd;
+    }
+
+.mensajeCorrecto {
+    color: green;
+    display: block;
+    margin-top: 15px;
+}
+
+.mensajeError {
+    color: red;
+    display: block;
+    margin-top: 15px;
+}

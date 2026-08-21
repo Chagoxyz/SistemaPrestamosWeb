@@ -1,0 +1,47 @@
+﻿input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #C7B299;
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #FFFFFF;
+}
+
+    .tabla th {
+        background: #AE0C3E;
+        color: #FFFFFF;
+        padding: 10px;
+        border: 1px solid #C7B299;
+    }
+
+    .tabla td {
+        padding: 10px;
+        border: 1px solid #C7B299;
+    }
+
+.botonSecundario {
+    padding: 10px 18px;
+    background: #AFCCA8;
+    color: #33211C;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman", serif;
+    margin-left: 8px;
+}
+
+.mensajeCorrecto {
+    color: green;
+}
+
+.mensajeError {
+    color: #AE0C3E;
+}
