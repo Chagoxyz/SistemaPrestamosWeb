@@ -176,6 +176,7 @@
     <Compile Include="Servicios\ApiService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NuGet.Config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
